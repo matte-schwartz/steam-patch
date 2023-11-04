@@ -15,7 +15,7 @@ pub struct DeviceAlly {
 impl DeviceAlly {
     pub fn new() -> Self {
         DeviceAlly {
-            device: DeviceGeneric::new(45, 800,2700),
+            device: DeviceGeneric::new(35, 800,2700),
         }
     }
 }
